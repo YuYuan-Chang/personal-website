@@ -4,48 +4,17 @@ import ProjectCard from '@/components/ProjectCard';
 const sampleProjects: Project[] = [
   {
     id: '1',
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce solution built with Next.js and PostgreSQL. Features include user authentication, product catalog, shopping cart, and payment processing.',
-    techStack: ['Next.js', 'TypeScript', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
-    githubUrl: 'https://github.com/yourusername/ecommerce-platform',
-    liveUrl: 'https://ecommerce-demo.vercel.app',
+    title: 'AI-Agent Powered Code Analysis System',
+    description: 'Designed a graph database and RAG driven retrieval framework that enables LLMs to read large, multi-file codebases. Constructed a Neo4j code graph database, extracting code elements (MODULE, CLASS, FUNCTION, METHOD, FIELD, GLOBAL_VARIABLE) as nodes and semantic relationships as edges for precise LLM retrieval.',
+    techStack: ['Neo4j', 'RAG', 'LangChain', 'Python', 'Graph Databases', 'LLM', 'Cypher', 'Vector Search'],
+    githubUrl: 'https://github.com/YuYuan-Chang/ai-code-analysis',
   },
   {
     id: '2',
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-    techStack: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Express'],
-    githubUrl: 'https://github.com/yourusername/task-manager',
-    liveUrl: 'https://taskmanager-demo.herokuapp.com',
-  },
-  {
-    id: '3',
-    title: 'Weather Dashboard',
-    description: 'A responsive weather application that displays current weather conditions and forecasts for multiple cities with interactive charts.',
-    techStack: ['React', 'TypeScript', 'Chart.js', 'OpenWeather API', 'CSS Modules'],
-    githubUrl: 'https://github.com/yourusername/weather-dashboard',
-    liveUrl: 'https://weather-dashboard-demo.netlify.app',
-  },
-  {
-    id: '4',
-    title: 'Personal Blog CMS',
-    description: 'A content management system for blogs with markdown support, SEO optimization, and admin dashboard for content creation.',
-    techStack: ['Next.js', 'Sanity CMS', 'TypeScript', 'Tailwind CSS'],
-    githubUrl: 'https://github.com/yourusername/blog-cms',
-  },
-  {
-    id: '5',
-    title: 'Finance Tracker',
-    description: 'A personal finance tracking application with expense categorization, budget planning, and financial goal tracking features.',
-    techStack: ['Vue.js', 'Python', 'FastAPI', 'SQLite', 'Chart.js'],
-    githubUrl: 'https://github.com/yourusername/finance-tracker',
-  },
-  {
-    id: '6',
-    title: 'Real Estate Platform',
-    description: 'A property listing platform with advanced search filters, map integration, and real-time chat between buyers and sellers.',
-    techStack: ['React', 'Node.js', 'PostgreSQL', 'Google Maps API', 'Socket.io'],
-    githubUrl: 'https://github.com/yourusername/real-estate-platform',
+    title: 'Student Resource Sharing Platform',
+    description: 'Developed a web application that allows students to share their resumes and receive feedback from peers. Implemented a Microservices architecture with distributed system handling user authorization, resume handling, comments, and concurrency situations.',
+    techStack: ['TypeScript', 'React', 'Node.js', 'Express', 'MongoDB', 'Docker', 'Kubernetes', 'Nginx', 'Redis'],
+    githubUrl: 'https://github.com/YuYuan-Chang/student-resource-platform',
   },
 ];
 
@@ -72,7 +41,7 @@ export default function ProjectsPage() {
             Want to see more of my work?
           </p>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/YuYuan-Chang"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors"
