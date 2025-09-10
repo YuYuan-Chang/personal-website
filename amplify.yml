@@ -3,11 +3,13 @@ frontend:
   phases:
     preBuild:
       commands:
-        - nvm use 18
+        - nvm use 20
         - npm ci
     build:
       commands:
+        - echo "Building Next.js SSG application"
         - npm run build
+        - echo "Static site generation completed"
   artifacts:
     baseDirectory: out
     files:
@@ -15,3 +17,4 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
+  framework: 'Next.js - SSG'
