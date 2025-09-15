@@ -4,12 +4,20 @@ frontend:
     preBuild:
       commands:
         - nvm use 20
+        - node --version
+        - npm --version
         - npm ci
     build:
       commands:
-        - echo "Building Next.js SSG application"
+        - echo "Building Next.js static export application"
         - npm run build
         - echo "Static site generation completed"
+        - ls -la out/
+    postBuild:
+      commands:
+        - echo "Ensuring all static files are properly generated"
+        - find out -name "*.html" -type f
+        - echo "Build artifacts ready for deployment"
   artifacts:
     baseDirectory: out
     files:
@@ -17,4 +25,3 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
-  framework: 'Next.js - SSG'
