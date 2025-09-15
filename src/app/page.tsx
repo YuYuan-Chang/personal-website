@@ -88,7 +88,7 @@ export default function Home() {
             <div className="font-mono text-gray-300 space-y-4">
               <p className="leading-relaxed">
                 I&apos;m a Computer Science graduate student at <span className="text-blue-400">New York University</span> with expertise in AI/ML systems,
-                distributed computing, and full-stack development. With a Bachelor&apos;s degree in Data Theory from <span className="text-blue-400">UCLA</span>
+                distributed computing, and full-stack development. With a Bachelor&apos;s degree in Data Theory from <span className="text-blue-400">UCLA </span>
                  and hands-on industry experience, I bridge the gap between cutting-edge research and practical applications.
               </p>
               <p className="leading-relaxed">

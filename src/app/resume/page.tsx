@@ -214,7 +214,7 @@ export default function ResumePage() {
           <div className="bg-gray-900 border border-gray-700 rounded-lg p-8">
             <div className="mb-8">
               <div className="text-green-400 font-mono text-xl mb-4">
-                <span className="text-gray-400">$</span> git log --author="Yu-Yuan Chang" --oneline
+                <span className="text-gray-400">$</span> git log --author=&quot;Yu-Yuan Chang&quot; --oneline
               </div>
             </div>
             <div className="space-y-6 font-mono">

@@ -120,7 +120,7 @@ export default function ProjectsPage() {
           <div className="bg-black border border-gray-700 rounded-lg p-8">
             <div className="mb-6">
               <div className="text-green-400 font-mono text-xl mb-4">
-                <span className="text-gray-400">$</span> find . -name "collaboration" -type f
+                <span className="text-gray-400">$</span> find . -name &quot;collaboration&quot; -type f
               </div>
               <div className="text-white font-mono text-2xl md:text-3xl font-bold mb-4">
                 Interested in My Work?
